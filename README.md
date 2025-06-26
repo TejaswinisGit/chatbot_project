@@ -1,92 +1,96 @@
-# 🤖 Simple Chatbot using NLP (Python + NLTK)
+# 💬 ChatBot Project
 
-This is a basic rule-based chatbot developed using Python and the NLTK library. It uses predefined intents and simple natural language processing techniques to interact with users in casual conversation.
-
----
-
-## 🎯 Aim
-
-Develop a simple chatbot that can engage in basic conversations with users.
+Welcome to my **ChatBot Project**, developed as part of my internship at **CodeClause**. This project is a basic rule-based chatbot that can interact with users based on predefined intents using Natural Language Processing (NLP).
 
 ---
 
-## 📄 Description
+## 🚀 Project Overview
 
-This chatbot is powered by Natural Language Processing (NLP) using **Python** and **NLTK**. It reads user input, processes the text using tokenization and lemmatization, and finds the best matching intent based on word overlap. Responses are randomly selected from the matched intent's responses to simulate a human-like chat experience.
+The chatbot is designed to understand and respond to user inputs based on intent classification. It reads a list of defined intents from a JSON file, processes user input, and replies with relevant responses.
 
-It can:
-- Greet users
-- Tell jokes or fun facts
-- Share motivational quotes
-- Answer questions about itself, AI, or tech
-- Give basic career advice
-
----
-
-## 🛠️ Technologies Used
-
-- Python
-- NLTK (Natural Language Toolkit)
-- JSON for storing intents
-- Basic NLP: tokenization, lemmatization
+This was a hands-on project where I implemented:
+- Data preprocessing using NLTK
+- Bag-of-Words model for feature extraction
+- Simple intent classification using a neural network
+- A basic conversational interface
 
 ---
 
-## 🚀 How to Run the Project
+## 🧠 Tech Stack
 
-### 1️⃣ Clone the Repository
+- **Python 3**
+- **Natural Language Toolkit (NLTK)**
+- **NumPy**
+- **TensorFlow / Keras**
+- **JSON** (for storing intents)
+
+---
+
+## 📂 Project Structure
+
 ```bash
-git clone https://github.com/your-username/chatbot-project.git
-cd chatbot-project
-```
+chatbot_project/
+│
+├── app.py             # Main chatbot logic
+├── intents.json       # Contains predefined intents, patterns & responses
+└── README.md          # Project documentation
 
-### 2️⃣ Install Required Packages
+## 🔧 How to Run the Project
+
+### 📥 Clone the repo
 ```bash
-pip install nltk
+git clone https://github.com/TejaswinisGit/chatbot_project.git
+cd chatbot_project
 ```
 
-> 📌 Note: On first run, NLTK will download required resources like punkt and wordnet. If not, add this to your script:
-```python
-import nltk
-nltk.download('punkt')
-nltk.download('wordnet')
-```
-
-### 3️⃣ Ensure Project Structure Looks Like This
-```
-chatbot-project/
-├── chatbot.py
-├── intents.json
-└── README.md
-```
-
-### 4️⃣ Run the Chatbot
+### 📦 Install dependencies
 ```bash
-python chatbot.py
+pip install nltk tensorflow numpy
 ```
+
+### ▶️ Run the chatbot
+```bash
+python app.py
+```
+
+### 🗨️ Interact with the chatbot
+- Type your question in the console
+- See how the chatbot responds!
+
+---                
+
+## 🔄 What I Learned
+
+This project gave me a deeper understanding of:
+
+- Text preprocessing (tokenization, stemming)
+- How chatbots handle intents and responses
+- Building a neural network for classification
+- The importance of training data in NLP
+
+I also gained confidence in working with basic AI models and file-based data formats like JSON.
 
 ---
 
-## 📦 Project Structure
+## 📌 Future Improvements
 
-```
-chatbot-project/
-├── chatbot.py          # Main script to run the chatbot
-├── intents.json        # Predefined intents with patterns and responses
-└── README.md           # Project documentation
-```
+- Add support for dynamic or real-time intents
+- Build a web interface using Flask or React
+- Improve classification with more training data or RNNs
+- Integrate with external APIs (e.g., weather, jokes, etc.)
 
 ---
 
-## 🔮 Future Enhancements
+## 👩‍💻 About Me
 
-- Integrate with a GUI (Tkinter) or Web App (Flask)
-- Add contextual memory
-- Improve matching using ML models (e.g., scikit-learn, spaCy)
-- Add voice support or text-to-speech
+I'm **Tejaswini Thungathoorthi**, a Computer Science student specializing in **AI & ML**, passionate about building smart applications that solve real-world problems. This chatbot is one step forward in my journey toward AI development.
+
+You can check out my other projects [here](https://github.com/TejaswinisGit)!
 
 ---
 
-## 📜 License
+## 📬 Contact
 
-This project is open-source and free to use under the MIT License.
+- 📧 Email: [tejaswini17109@gmail.com]
+- 💼 LinkedIn: [www.linkedin.com/in/tejaswini-thungathoorthi-9076b2295]
+
