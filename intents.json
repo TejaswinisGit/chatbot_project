@@ -1,0 +1,84 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "good morning", "good evening", "heyy", "hiya"],
+      "responses": ["Hi there!", "Hello!", "Hey! How can I assist you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "see you", "goodbye", "catch you later", "talk to you soon"],
+      "responses": ["Goodbye! Take care!", "See you soon!", "Have a great day! 😊"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thanks", "thank you", "much appreciated", "thx", "grateful"],
+      "responses": ["You're welcome!", "Glad to help!", "Anytime!"]
+    },
+    {
+      "tag": "name",
+      "patterns": ["what is your name", "who are you", "your name", "can I know your name"],
+      "responses": ["I'm your friendly chatbot 🤖", "I'm just a helpful AI!"]
+    },
+    {
+      "tag": "how_are_you",
+      "patterns": ["how are you", "how are you doing", "how's it going", "how do you feel"],
+      "responses": ["I'm doing great, thanks!", "Feeling awesome and ready to help!"]
+    },
+    {
+      "tag": "joke",
+      "patterns": ["tell me a joke", "make me laugh", "joke please", "funny"],
+      "responses": [
+        "Why did the computer get cold? It left its Windows open 😂",
+        "Why don’t robots get scared? They have nerves of steel!",
+        "How does a computer get drunk? It takes screenshots!"
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": ["how old are you", "what's your age", "when were you made"],
+      "responses": ["I was born the moment you ran this program!", "Age is just a number — especially for bots!"]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["what's the weather", "is it raining", "weather update"],
+      "responses": ["I'm not connected to the weather yet, but I hope it's sunny where you are! ☀️"]
+    },
+    {
+      "tag": "motivation",
+      "patterns": ["motivate me", "inspire me", "encourage me", "i'm feeling low"],
+      "responses": [
+        "You are capable of amazing things 🌟",
+        "Push yourself, because no one else is going to do it for you.",
+        "Every day is a new chance to shine!"
+      ]
+    },
+    {
+      "tag": "career",
+      "patterns": ["give me career advice", "what should I do in life", "suggest me a job", "future plans"],
+      "responses": [
+        "Focus on your passion and turn it into your profession!",
+        "Explore tech careers — they’re full of exciting challenges!",
+        "Keep learning and upskilling — that's the best investment!"
+      ]
+    },
+    {
+      "tag": "tech",
+      "patterns": ["what is AI", "explain machine learning", "what is Python", "tell me about technology"],
+      "responses": [
+        "AI is like me — machines that mimic human intelligence!",
+        "Python is a versatile programming language great for AI, data, and more!",
+        "Machine learning allows computers to learn from data."
+      ]
+    },
+    {
+      "tag": "fun_fact",
+      "patterns": ["tell me something interesting", "fun fact", "surprise me"],
+      "responses": [
+        "Bananas are berries, but strawberries aren't! 🍌🍓",
+        "Octopuses have three hearts!",
+        "Honey never spoils — 3000-year-old jars are still edible!"
+      ]
+    }
+  ]
+}
